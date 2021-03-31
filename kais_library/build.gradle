@@ -9,7 +9,7 @@ repositories {
 }
 
 
-group = 'com.github.kaiott'
+group = 'com.gitlab.kaiott'
 version = '1.0'
 
 android {
@@ -53,9 +53,9 @@ afterEvaluate {
             // Creates a Maven publication called "release".
             release(MavenPublication) {
                 from components.release
-                groupId = 'com.github.kaiott'
+                groupId = 'com.gitlab.kaiott'
                 artifactId = 'library-example'
-                version = '1.0'
+                version = '1.01'
             }
         }
     }
